@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Finding Hospitals]" guice-stage="DEVELOPMENT">
+  <test name="Getting Alert Message(failed)">
+    <classes>
+      <class name="com.practo.getAlertMessage">
+        <methods>
+          <include name="alertMessage" invocation-numbers="2"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.practo.getAlertMessage -->
+    </classes>
+  </test> <!-- Getting Alert Message(failed) -->
+</suite> <!-- Failed suite [Finding Hospitals] -->
